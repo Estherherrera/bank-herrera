@@ -1,0 +1,46 @@
+.networks {
+  margin-bottom: 50px;
+
+}
+
+.networks h4 {
+  display: flex;
+  justify-content: center;
+  color: #F2F6FF;
+  font-family: system-ui, sans-serif;
+
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.fa-brands, .fa-solid {
+  font-size: 40px;
+  color: #F2F6FF;
+
+}
+
+
+.nav {
+  padding-bottom: 50px;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px;
+
+
+}
+
+nav a {
+  color: #CAD6F1;
+  font-weight: bold;
+  font-size: 30px;
+  font-family: 'Times New Roman', Times, serif;
+  text-decoration: none;
+
+}
