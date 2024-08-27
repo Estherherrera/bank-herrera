@@ -1,19 +1,19 @@
 <div class="respmenu">
-  <h1 routerLink="/home" routerLinkActive="router-link-active" >
+  <h1 routerLink="/" routerLinkActive="router-link-active" >
     <i  class="fa-solid fa-building-columns"></i>
     &emsp; Banco Herrera
   </h1>
-  <input type="checkbox" >
+  <input type="checkbox" #checkbox>
   <i class="fas fa-bars"></i>
   <i class="fas fa-times"></i>
 
   <nav>
 
     <ul>
-      <a routerLink="home" >Home</a>
+      <a routerLink="" (click)="checkbox.checked = false" >Home</a>
       <!-- <a href="#">forbes</a>
       <a href="#">Forbes</a> -->
-      <a href="about">Sobre mí</a>
+      <a routerLink="about" (click)="checkbox.checked = false">Sobre mí</a>
     </ul>
   </nav>
 </div>

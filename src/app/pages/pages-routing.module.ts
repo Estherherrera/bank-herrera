@@ -5,7 +5,7 @@ import { HomePagesComponent } from './home-pages/home-pages.component';
 
 const routes: Routes = [
   {
-    path:'home',
+    path:'',
     component: HomePagesComponent
   },
   {
