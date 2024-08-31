@@ -21,6 +21,7 @@ h1 span {
   gap: 24px;
   margin: 0 auto;
   padding-bottom: 32px;
+  flex-wrap: wrap;
 }
 
 .blurred img, .me section {
@@ -51,8 +52,6 @@ h1 span {
 .half-1 {
   height: 500px;
   width: 200px;
-  /* border-top-left-radius: 30px;
-  border-bottom-left-radius: 30px; */
   box-shadow: 3px 5px 20px #F44E77;
   border-radius: 16px;
   }
@@ -60,8 +59,6 @@ h1 span {
   .half-2 {
     height: 500px;
     width: 200px;
-    /* border-top-right-radius: 30px;
-    border-bottom-right-radius: 30px; */
     box-shadow: 3px 5px 30px #812DE2;
     border-radius: 16px;
   }
@@ -76,15 +73,17 @@ h1 span {
   color: #f8f8f8;
 }
 
+.container {
+  display: flex;
+  justify-content: flex-end;
+}
+
 .button-project {
   background: linear-gradient(to right, #F44E77, #812DE2);
   padding: 4px;
   position: relative;
-  aspect-ratio: 10/16;
   width: 300px;
   height: 50px;
-  /* margin-left: 50px; */
-  left: 300px;
   border-radius: 8px;
 }
 
@@ -100,5 +99,11 @@ h1 span {
   font-style: oblique;
 }
 
+@media (min-width: 320px) and (max-width: 750px) {
+  .blurred {
+    /* display: none; */
+  }
+
+}
 
 
